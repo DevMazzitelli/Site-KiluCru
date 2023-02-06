@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    background-image: url(/medias/images/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+}
+
+/* Mon header */
+#imgbanner {
+    width: 50vh;
+    box-shadow: 0px 6px 7px -2px #7B2497;
+}
+
+.imgnav {
+    width: 50vw;
+    margin-left: 8vh;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+/* Mon main */
+#presentation {
+    width: 50vw;
+    margin-left: 12.5vh;
+}
+
+h1 {
+    font-size: 3vh;
+    margin-left: 5vh;
+    color: white;
+    text-shadow: -1px -1px 14px rgba(207,14,207,1);
+}
+
+#videokraber {
+    width: 90vw;
+    height: 25vh;
+    margin-left: 3vh;
+    box-shadow: 2px 9px 15px 5px rgba(0,0,0,0.8);
+}
+
+/* Mon footer */
+
+#mecontacter {
+    margin-top: 2vh;
+    width: 60vw;
+    margin-left: 10vh;
+}
+
+@media screen and (min-width: 2560px) {
+    .imgnav {
+        height: 10vh !important;
+    }
+    nav ul li {
+        margin-left: 4vh !important;
+    }
+    .pres {
+        margin-left: 35vh !important;
+    }
+    u {
+        margin-left: 30vh !important;
+    }
+    .video {
+        margin-left: 0vh !important;
+    }
+    .mecontacter {
+        margin-left: 27.5vh !important;
+    }
+    /* Finir ce que je suis entrain de faire en 256à */
+}
+
+@media screen and (min-width: 1440px) {
+    .imgnav {
+        height: 10vh !important;
+    }
+    nav ul li{
+        width: 60vw ;
+        margin-left: 2vh;
+        /* Remettre une bonne taille */
+    }
+    #presentation {
+        margin-left: 53vh !important;
+    }
+    h1 {
+        margin-left: 26vw !important;
+    }
+    #videokraber {
+        margin-left: 10vw !important;
+    }
+    #mecontacter {
+        margin-left: 21vw !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    nav ul li {
+        width: 40vw ;
+        margin-left: 2vh;
+    }
+    .pres {
+        margin-left: 15vh;
+    }
+    #presentation {
+        width: 30vh;
+    }
+    h1 {
+        margin-left: 20vh;
+    }
+    .video {
+        margin-left: 2vh;
+    }
+    .mecontacter {
+        margin-left: 22.5vh;
+    }
+    #mecontacter {
+        width: 30vw;
+        height: 10vh;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #imgbanner {
+        width: 105vw;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        margin-left: -14vh;
+    }
+    .imgnav {
+        height: 5vh;
+        width: 19vw;
+    }
+    #presentation {
+        height: 10vh;
+        margin-left: 25vw;
+        }
+        u {
+            margin-left: 20vh;
+        }
+        #videokraber {
+            height: 50vh;
+            width: 80vw;
+            margin-left: 10vh;
+        }
+        #mecontacter {
+            margin-left: 19vh;
+        }
+}
